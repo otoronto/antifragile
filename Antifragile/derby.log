@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Oct 31 18:56:51 EET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-017c-d711-58ce-00000fa6c900 
+on database directory /Users/emrebasar/eclipse-workspace/Antifragile/chonkerDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@340f438e 
+Loaded from file:/Users/emrebasar/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.13+10-LTS-370
+user.dir=/Users/emrebasar/eclipse-workspace/Antifragile
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
