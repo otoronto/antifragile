@@ -17,7 +17,7 @@ public class MainMenuController {
 	public ToggleButton timerButton;
 	public TextField timerTextField;
 	Counter counter;
-	MainMenuController menuControllerInstance; // static yapýnca herþey düzeldi
+	MainMenuController menuControllerInstance; // static yapï¿½nca herï¿½ey dï¿½zeldi
 	{
 		System.out.println("Selam");
 		counter = new Counter();
@@ -47,6 +47,7 @@ public class MainMenuController {
 		try {
 			Parent MainMenuparent = loader.load();
 			Scene mainMenuScene = new Scene(MainMenuparent, 900, 900);
+			mainMenuScene.getRoot().setStyle("-fx-font-family: 'serif'");
 			Stage mainMenuStage = (Stage) ((Node) e.getSource()).getScene().getWindow();
 			mainMenuStage.setResizable(false);
 			mainMenuStage.setTitle("MainMenu");

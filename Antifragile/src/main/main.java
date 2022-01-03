@@ -22,7 +22,11 @@ static Stage stage;
 	    	Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("main/gui/fx/ValidatePassword.fxml"));
 	    	
 		      primaryStage.setTitle("login");
-		      primaryStage.setScene(new Scene(root,700,500));
+		      
+		      Scene scene = new Scene(root,700,500);
+		      scene.getRoot().setStyle("-fx-font-family: 'serif'");
+
+		      primaryStage.setScene(scene);
 		      primaryStage.show();
 	    }
 	    public static void main(String[] args) throws InterruptedException {
