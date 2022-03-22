@@ -21,6 +21,7 @@ public class Counter extends Thread {
 		formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 		timeToString = localTimeValue.format(formatter);
 	}
+	
 
 	public void startTimer(MainMenuController m) {
 		controllerinst = m;
