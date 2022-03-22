@@ -76,7 +76,7 @@ public class DBtasks {
 	}
 	
 //	This method will be adjusted to function dynamically later... To be revised...
-	public void createTable()) {
+	public void createTable() {
 		try {
 			Connection con = connectToDB();
 			Statement st = con.createStatement();
